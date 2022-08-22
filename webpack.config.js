@@ -21,11 +21,15 @@ module.exports = {
       template: './src/index.html'
     })
   ],
-  loaders: {
-    test: /\.css$/i,
-    use: [
-      'style-loader',
-      'css-loader'
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
+      }
     ]
   }
 }
