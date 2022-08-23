@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint .",
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
